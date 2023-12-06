@@ -1,0 +1,136 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    transition: background-color 0.5s ease;
+    border: 1px solid black;
+}
+
+/* Navigation Styles */
+nav {
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;  
+    padding: 5px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+/* Navigation Link Styles */
+nav ul li a {
+    border: 0.7px solid white;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 25px;
+    font-weight: 500;
+    color: yellow;
+    cursor: pointer;
+    transition: color 0.5s ease; /* Smooth transition for text color change */
+}
+
+/* Navigation Link Hover Styles */
+nav ul li a:hover {
+    background-color: yellow;
+    color: black;
+    border: 1px solid blue;
+    font-style: italic;
+}
+
+/* Image Styles */
+div {
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    background-color: black; 
+    color: yellow; 
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Scrolled Navbar Styles */
+.navbar-scrolled {
+    background-color: white;
+    transition: 0.5s ease;
+}
+
+.navbar-scrolled li a {
+    border: 0.7px solid black;
+    color: black;
+    transition: 0.5s;
+}
+
+
+.navbar-scrolled a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Dropdown Menu Styles */
+nav ul li .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    border: 0.7px solid black;
+    margin-top: 7px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+nav ul li .dropdown-menu li {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Show dropdown menu on hover */
+nav ul li:hover .dropdown-menu {
+    display: block;
+}
+
+
+/* Change color on hover for dropdown menu items */
+nav ul li .dropdown-menu a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+/* Styles for scrolled dropdown menu */
+.navbar-scrolled nav ul li:hover .dropdown-menu {
+    background-color: white;
+    color: black;
+    transition: 0.5s ease;
+}
+
+.navbar-scrolled nav ul li .dropdown-menu a {
+    color: black;
+}
+
+.navbar-scrolled nav ul li .dropdown-menu a:hover {
+    color: white;
+    background-color: black;
+}
+
+
+
+
+
