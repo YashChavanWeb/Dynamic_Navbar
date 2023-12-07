@@ -4,7 +4,8 @@ Create an interactive navigation menu that changes color or style when scrolled 
 Website Link : https://yashchavanweb.github.io/PRODIGY_WD_01/index.html
 
 
-
+## Demo : 
+https://github.com/YashChavanWeb/PRODIGY_WD_01/assets/112185595/6e27a1ac-2b86-46c5-a038-98868efdb332
 
 # Learnings from the Project:
 
