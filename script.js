@@ -15,5 +15,16 @@ window.addEventListener("scroll", function () {
     // window.scrollY:
     // Represents the current vertical scroll position.
     // If greater than 0, the user has scrolled down the page.
-
 });
+
+
+
+const mobile = document.querySelector('.mobile')
+const header = document.querySelector('.header')
+
+const press = () => {
+    // alert("hello")
+    header.classList.toggle("active");
+}
+
+mobile.addEventListener('click', () => press())
